@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+  <!-- Main heading -->
+  <h1>Advanced HTML5 Elements and Forms</h1>
+
+  <!-- Ordered List with Roman Numerals -->
+  <h2>Steps to Complete the Assignment</h2>
+  <ol type="I">
+    <li>Create index.html file</li>
+    <li>Add an ordered list with Roman numerals</li>
+    <li>Insert an external image from Pexels</li>
+    <li>Create a table of 5 contacts</li>
+    <li>Add a registration form with validation</li>
+  </ol>
+
+  <!-- External Image from Pexels -->
+  <h2>External Image</h2>
+  <img src="https://images.pexels.com/photos/3184450/pexels-photo-3184450.jpeg" alt="Teamwork Image from Pexels" width="500">
+
+  <!-- Table of 5 Contacts -->
+  <h2>Contact List</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice Mwende</td>
+        <td>Nairobi</td>
+        <td>0712345678</td>
+        <td>alice@example.com</td>
+      </tr>
+      <tr>
+        <td>Brian Otieno</td>
+        <td>Kisumu</td>
+        <td>0722345678</td>
+        <td>brian@example.com</td>
+      </tr>
+      <tr>
+        <td>Carol Njeri</td>
+        <td>Thika</td>
+        <td>0733345678</td>
+        <td>carol@example.com</td>
+      </tr>
+      <tr>
+        <td>David Kamau</td>
+        <td>Nakuru</td>
+        <td>0744345678</td>
+        <td>david@example.com</td>
+      </tr>
+      <tr>
+        <td>Eva Achieng</td>
+        <td>Eldoret</td>
+        <td>0755345678</td>
+        <td>eva@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    
+    <!-- Name Field -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    <br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+    <br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
+
+    <!-- Dropdown Field -->
+    <label for="course">Select Course:</label>
+    <select id="course" name="course" required>
+      <option value="">--Select Course--</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Preferred Learning Mode:</label><br>
+    <input type="checkbox" id="online" name="mode" value="online">
+    <label for="online">Online</label><br>
+    <input type="checkbox" id="offline" name="mode" value="offline">
+    <label for="offline">Offline</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+
+  </form>
+
+</body>
+</html>
